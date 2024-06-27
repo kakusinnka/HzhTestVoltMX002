@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
+    "_blur_": {
+        "enabled": true,
+        "value": 0
+    },
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -21,7 +25,7 @@
     "_text_": "Apple Apple Apple Apple",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "250dp"
     },
     "_width_": {
         "type": "string",
@@ -29,6 +33,9 @@
     },
     "_wrapping_": 2,
     "android": {
+        "psp": {
+            "textCopyable": true
+        },
         "textStyle": {
             "letterSpacing": 0,
             "strikeThrough": false
@@ -41,7 +48,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "MyLabel",
+    "id": "MyLabel002",
     "info": null,
     "ipad": {
         "psp": {
@@ -50,12 +57,13 @@
     },
     "iphone": {
         "psp": {
-            "wrapping": 2
+            "textCopyable": true,
+            "wrapping": 1
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c92a2061e1164fcca15e9870435ca40d",
+    "kuid": "b23bfd1885234eb9a457473daf68011b",
     "name": "kony.ui.Label",
     "parent": "MainFlexContainer",
     "pf": "TestForm001",

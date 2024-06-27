@@ -51,6 +51,7 @@
     "access_pimdomain_messages": "false",
     "access_shared": "false",
     "access_sms_mms": "false",
+    "accountCloudGuid": "f2cf187c-63fc-4f80-9200-215566ea867f",
     "allJoyn": "false",
     "allowselfsignedcertificate": "false",
     "andmaxsdkkey": "None",
@@ -636,17 +637,29 @@
     "previewshowpassword": "false",
     "privateNetworkClientServer": "false",
     "project.type": "js",
+    "projectCloudGuid": "b9fc86f9-e4d8-4158-9619-1c4fe15f8732",
     "project_version": "sprint45",
     "protectedmodeenabled_android": "false",
     "protectedmodeenabled_androidwear": "false",
     "protectedmodeenabled_ios": "false",
+    "prototype": {
+        "PublishMode": "public",
+        "createdBy": "ZHENHUA HAO",
+        "createdById": "c63d5914-4518-4e5f-8e5d-7af30f3fa135",
+        "createdOn": "2024-06-27T23:13:58.692Z",
+        "password": "",
+        "resourceId": "978b2699-6eea-458c-af51-f05749d6f34c",
+        "shareGuid": "Y68DM"
+    },
     "proximity": "false",
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",
