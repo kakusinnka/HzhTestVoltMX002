@@ -58,6 +58,10 @@
         [
             "lb3",
             "Placeholder Three"
+        ],
+        [
+            "lb4",
+            "Placeholder Four"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -65,9 +69,12 @@
     "pf": "TestForm002",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": null,
+    "selectedkey": "lb4",
     "selectedkeys": null,
-    "selectedkeyvalue": null,
+    "selectedkeyvalue": [
+        "lb4",
+        "Placeholder Four"
+    ],
     "selectedkeyvalues": null,
     "size": 18,
     "viewconfig": {
