@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_placeholder_": "Please Select",
+    "_placeholder_": "请选择",
     "_skin_": "s7369237c732468ea8999b81c1436d05",
     "_top_": {
         "type": "string",
@@ -30,6 +30,13 @@
     "_width_": {
         "type": "string",
         "value": "300dp"
+    },
+    "android": {
+        "psp": {
+            "popupIcon": "option4.png",
+            "popupTitle": "点我"
+        },
+        "viewType": 0
     },
     "canUpdateUI": true,
     "centerx": {
@@ -43,6 +50,13 @@
     "groupcells": false,
     "id": "MyListBox001",
     "info": null,
+    "inputAccessoryViewType": 1,
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 1
+        },
+        "viewType": 0
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f7c7f84b6c9e435f9063355cbf38d289",
@@ -77,11 +91,8 @@
     ],
     "selectedkeyvalues": null,
     "size": 18,
-    "viewconfig": {
-        "toggleViewConfig": {
-            "viewStyle": 0
-        }
-    },
+    "tickedimage": "",
+    "untickedimage": "",
     "viewtype": 0,
     "wType": "ListBox",
     "zindex": 1
