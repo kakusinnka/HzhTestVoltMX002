@@ -73,6 +73,10 @@
         [
             "rbg3",
             "Radiobutton Three"
+        ],
+        [
+            "rbg4",
+            "Radiobutton Four"
         ]
     ],
     "name": "kony.ui.RadioButtonGroup",
@@ -80,8 +84,11 @@
     "pf": "TestForm002",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": null,
-    "selectedkeyvalue": null,
+    "selectedkey": "rbg4",
+    "selectedkeyvalue": [
+        "rbg4",
+        "Radiobutton Four"
+    ],
     "size": 18,
     "viewconfig": {
         "toggleViewConfig": {
