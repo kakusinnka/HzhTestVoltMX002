@@ -33,7 +33,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "MainFlexContainer"
+        "MainFlexContainer",
+        "MyRadioButtonGroup"
     ],
     "containerweight": 100,
     "controllerInfo": {
