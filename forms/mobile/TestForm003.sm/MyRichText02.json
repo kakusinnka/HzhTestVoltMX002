@@ -1,8 +1,9 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -14,48 +15,38 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s00ced8608284dc68db8f30b956800e2",
+    "_skin_": "saa2f9b0da72494bb326588a9ec9349c",
+    "_text_": "RichText",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "25%"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
+    "_wrapping_": 2,
     "canUpdateUI": true,
-    "children": [
-        "MyRichText01",
-        "MyRichText02"
-    ],
-    "clipbounds": false,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "MainFlexContainer",
+    "contentalignment": 1,
+    "id": "MyRichText02",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j15a51d1f73e4ef1bc15e1ea0fe9d013",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "TestForm003",
+    "kuid": "f243c6cffedd4c03ace2ede11d49642e",
+    "linkskin": "sfff2adc65f443a68e8098d04c87d838",
+    "name": "kony.ui.RichText",
+    "parent": "MainFlexContainer",
     "pf": "TestForm003",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "wType": "RichText",
+    "widgetalignment": 5,
     "zindex": 1
 }
