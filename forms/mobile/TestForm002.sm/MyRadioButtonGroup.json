@@ -53,8 +53,13 @@
     },
     "iphone": {
         "psp": {
-            "groupCells": true,
-            "viewType": 1
+            "viewConfig": {
+                "toggleViewConfig": {
+                    "enableTintColor": true,
+                    "tintColor": "91ffd700"
+                }
+            },
+            "viewType": 2
         }
     },
     "iscustomlayout": false,
