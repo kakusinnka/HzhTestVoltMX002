@@ -24,7 +24,7 @@
     "_skin_": "scbb747535dd4caf84e47db16c17e307",
     "_top_": {
         "type": "string",
-        "value": "205dp"
+        "value": "500dp"
     },
     "_width_": {
         "type": "string",
@@ -43,7 +43,7 @@
     "containerweight": 100,
     "disabledSkins": {},
     "focusskin": "s50a96cb733a486e9fc644b8f9445fec",
-    "groupcells": false,
+    "groupcells": true,
     "id": "MyRadioButtonGroup",
     "info": null,
     "ipad": {
@@ -53,12 +53,13 @@
     },
     "iphone": {
         "psp": {
-            "viewType": 0
+            "groupCells": true,
+            "viewType": 1
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "itemorientation": "vertical",
+    "itemorientation": "horizontal",
     "kuid": "c5a2922ac24444478496624f7d8b99f9",
     "masterdata": [
         [
