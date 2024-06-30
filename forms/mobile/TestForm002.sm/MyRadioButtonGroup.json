@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "120dp"
     },
     "_left_": {
         "type": "string",
@@ -75,7 +75,7 @@
         ]
     ],
     "name": "kony.ui.RadioButtonGroup",
-    "parent": "TestForm002",
+    "parent": "MainFlexContainer",
     "pf": "TestForm002",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
