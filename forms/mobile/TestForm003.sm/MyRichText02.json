@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "saa2f9b0da72494bb326588a9ec9349c",
-    "_text_": "RichText",
+    "_text_": "apple\n<p>欢迎访问我们的 <a href=\"https://www.example.com\">示例网站</a>。</p>\n<p>这是我们的标志：</p>\n<img src=\"https://www.example.com/logo.jpg\" alt=\"示例标志\">\n<p>这里有一些文本样式：</p>\n<p><b>粗体文本</b> 和 <i>斜体文本</i>。</p>\n",
     "_top_": {
         "type": "string",
         "value": "25%"
@@ -40,7 +40,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f243c6cffedd4c03ace2ede11d49642e",
-    "linkskin": "sfff2adc65f443a68e8098d04c87d838",
+    "linkskin": "s002b28fc193440e982f605a8f89b794",
     "name": "kony.ui.RichText",
     "parent": "MainFlexContainer",
     "pf": "TestForm003",
