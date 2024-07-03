@@ -44,10 +44,17 @@
     "focusskin": "s90ff5aa40c84700b5fe4efc2ebdcf2a",
     "id": "MyTextField001",
     "info": null,
+    "iphone": {
+        "psp": {
+            "closeButtonText": "clear"
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
+    "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "a3442bb6c21c4340a4bc0173131c461e",
+    "maxtextlength": 8,
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "MainFlexContainer",
@@ -55,8 +62,8 @@
     "placeholderskin": "s858e0d297b04b4ca519d3db118cd654",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "securetextentry": false,
-    "textinputmode": "A",
+    "securetextentry": true,
+    "textinputmode": "N",
     "tooltip": "",
     "viewtype": "default",
     "wType": "TextField",
