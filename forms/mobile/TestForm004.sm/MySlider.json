@@ -24,7 +24,7 @@
         "value": "0"
     },
     "_step_": 1,
-    "_thickness_": 15,
+    "_thickness_": 30,
     "_top_": {
         "type": "string",
         "value": "50dp"
@@ -51,6 +51,7 @@
             "viewType": "default"
         }
     },
+    "focusthumbimage": "option1.png",
     "id": "MySlider",
     "info": null,
     "ipad": {
@@ -63,7 +64,9 @@
     "iphone": {
         "psp": {
             "enableThumbTintColor": true,
-            "thumbTintColor": "ffffff00"
+            "maxValueImage": "pageondot.png",
+            "minValueImage": "pageoffdot.png",
+            "thumbTintColor": "ff91ba00"
         },
         "thumbImage": "slider_ios7.png"
     },
@@ -71,6 +74,10 @@
     "isvisible": true,
     "kuid": "f74a8b32e9ce441e92089744a5710fa8",
     "leftskin": "sb67c29ae86e469599d257de6407fe17",
+    "maxlabel": "Max",
+    "maxvalueimage": "pageondot.png",
+    "minlabel": "Min",
+    "minvalueimage": "pageoffdot.png",
     "name": "kony.ui.Slider",
     "osPlatform": "iphone",
     "osVersion": "iOS7",
