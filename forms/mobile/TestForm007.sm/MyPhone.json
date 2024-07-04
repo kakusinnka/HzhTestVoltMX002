@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCall",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "_margin_": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdef5470da494ae582f8908d3f5fbd99",
+    "_text_": "080-1234-5678",
+    "_top_": {
+        "type": "string",
+        "value": "621dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
+    },
+    "displaytext": true,
+    "focusskin": "sd516ba479d34c8a9e0009583b821479",
+    "id": "MyPhone",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "eef7fe5c1fb7411ba208fe4c69311487",
+    "name": "kony.ui.Phone",
+    "nativemac": {
+        "render": false
+    },
+    "nativewin": {
+        "render": false
+    },
+    "parent": "MainFlexContainer",
+    "pf": "TestForm007",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Phone",
+    "watchos": {
+        "render": false
+    },
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    },
+    "zindex": 1
+}

@@ -35,7 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "MyMap"
+        "MyMap",
+        "MyPhone"
     ],
     "clipbounds": false,
     "containerweight": 100,
