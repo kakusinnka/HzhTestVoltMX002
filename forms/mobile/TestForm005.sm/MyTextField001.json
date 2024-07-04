@@ -55,7 +55,7 @@
     "keyboardtype": "A",
     "kuid": "a3442bb6c21c4340a4bc0173131c461e",
     "maxtextlength": 8,
-    "mode": "A",
+    "mode": "N",
     "name": "kony.ui.TextBox2",
     "parent": "MainFlexContainer",
     "pf": "TestForm005",
