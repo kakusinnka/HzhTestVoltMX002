@@ -44,6 +44,7 @@
         "render": false
     },
     "canUpdateUI": true,
+    "capturemode": "video",
     "centerx": {
         "type": "string",
         "value": "50%"
@@ -56,6 +57,7 @@
             "poster": "cameraicon.png"
         }
     },
+    "enableoverlay": true,
     "id": "MyCamera",
     "info": null,
     "iphone": {
@@ -63,12 +65,16 @@
             "overlayForm": "i302e5c6c518494281ef0944ec35aff7",
             "startVideoButtonText": "",
             "stopVideoButtonText": ""
+        },
+        "psp": {
+            "nativeUserInterface": false
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "hbc80639b8eb4c9eb6423bd25c8aa179",
     "name": "kony.ui.Camera",
+    "nativeUserInterface": false,
     "oncapture": null,
     "parent": "MainFlexContainer",
     "pf": "TestForm006",
