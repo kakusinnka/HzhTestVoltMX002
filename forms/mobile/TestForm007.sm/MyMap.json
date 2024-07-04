@@ -36,6 +36,12 @@
     "defaultpinimage": "pinb.png",
     "id": "MyMap",
     "info": null,
+    "invokedProperty": "maps",
+    "iphone": {
+        "psp": {
+            "showCurrentLocation": "circle"
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "a4fe6cac0bd54e689215d4af7adecdc7",
@@ -49,6 +55,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "screenlevelwidget": false,
+    "showCurrentLocation": "circle",
     "wType": "Map",
     "zindex": 1,
     "zoomlevel": 4
