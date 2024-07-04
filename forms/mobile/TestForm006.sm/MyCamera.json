@@ -31,6 +31,15 @@
         "type": "string",
         "value": "300dp"
     },
+    "android": {
+        "overlayConfig": {
+            "captureButtonText": "",
+            "overlayForm": "i302e5c6c518494281ef0944ec35aff7",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": "",
+            "tapAnywhere": false
+        }
+    },
     "androidwearos": {
         "render": false
     },
@@ -39,6 +48,7 @@
         "type": "string",
         "value": "50%"
     },
+    "compressionlevel": 0,
     "containerweight": 100,
     "contentalignment": 5,
     "desktopweb": {
@@ -48,6 +58,13 @@
     },
     "id": "MyCamera",
     "info": null,
+    "iphone": {
+        "overlayConfig": {
+            "overlayForm": "i302e5c6c518494281ef0944ec35aff7",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": ""
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "hbc80639b8eb4c9eb6423bd25c8aa179",
@@ -78,6 +95,11 @@
     "wType": "Camera",
     "watchos": {
         "render": false
+    },
+    "winphone8": {
+        "overlayConfig": {
+            "tapAnywhere": false
+        }
     },
     "zindex": 1
 }
