@@ -26,7 +26,8 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "SegImage"
+        "SegImage",
+        "SegButton"
     ],
     "clipbounds": false,
     "containerId": true,
