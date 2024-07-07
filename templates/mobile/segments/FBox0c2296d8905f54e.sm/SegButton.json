@@ -1,13 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
         "value": "50dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "225dp"
     },
     "_margin_": [
         6,
@@ -21,17 +21,21 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "0"
+    },
     "_skin_": "se3c4495261943ee925e053c68b378c4",
     "_text_": "Button",
-    "_top_": {
-        "type": "string",
-        "value": "37dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,

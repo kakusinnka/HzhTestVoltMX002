@@ -5,101 +5,37 @@
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
+                "text": "Button01",
+                "type": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "option4.png",
+                "type": "Image"
             }
         },
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
+                "text": "Button02",
+                "type": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "option4.png",
+                "type": "Image"
             }
         },
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
+                "text": "Button03",
+                "type": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "SegButton": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "SegImage": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "option4.png",
+                "type": "Image"
             }
         }
     ],
@@ -136,7 +72,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "02",
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": "j689bb4d96a34531a7b8514f48b12b79",
@@ -171,7 +107,7 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "j689bb4d96a34531a7b8514f48b12b79",
-    "rowcounter": 9,
+    "rowcounter": 2,
     "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
     "rowskin": "sf48c20c40284174893252878ef8d096",
     "rowtemplate": "FBox0c2296d8905f54e",
