@@ -5,37 +5,31 @@
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button01",
-                "type": "Button"
+                "text": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "option4.png",
-                "type": "Image"
+                "src": "imagedrag.png"
             }
         },
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button02",
-                "type": "Button"
+                "text": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "option4.png",
-                "type": "Image"
+                "src": "imagedrag.png"
             }
         },
         {
             "SegButton": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button03",
-                "type": "Button"
+                "text": "Button"
             },
             "SegImage": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "option4.png",
-                "type": "Image"
+                "src": "imagedrag.png"
             }
         }
     ],
@@ -106,11 +100,11 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
-    "rowTemplateId": "j689bb4d96a34531a7b8514f48b12b79",
+    "rowTemplateId": "f78e2fe0c376404497d88bb6da3a35d4",
     "rowcounter": 2,
     "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
     "rowskin": "sf48c20c40284174893252878ef8d096",
-    "rowtemplate": "FBox0c2296d8905f54e",
+    "rowtemplate": "MainFlex",
     "screenlevelwidget": false,
     "seccounter": 0,
     "sectionheaderskin": "s50f75ac6faf42e3a22fc545d4102baf",
@@ -130,6 +124,7 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
+        "MainFlex": "MainFlex",
         "SegButton": "SegButton",
         "SegImage": "SegImage"
     },
