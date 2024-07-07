@@ -151,7 +151,7 @@
     },
     "android": {
         "psp": {
-            "viewType": 0
+            "viewType": 1
         }
     },
     "canUpdateUI": true,
@@ -159,6 +159,7 @@
     "desktopweb": {
         "render": false
     },
+    "enablehapticfeedback": true,
     "id": "MyPickerView",
     "info": null,
     "iscustomlayout": false,
