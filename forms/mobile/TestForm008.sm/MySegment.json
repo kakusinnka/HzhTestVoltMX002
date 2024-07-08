@@ -31,6 +31,36 @@
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
         }
     ],
     "_height_": {
@@ -66,7 +96,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "02",
+    "counter": "05",
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": "j689bb4d96a34531a7b8514f48b12b79",
@@ -101,12 +131,13 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "f78e2fe0c376404497d88bb6da3a35d4",
-    "rowcounter": 2,
+    "rowcounter": 5,
     "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
     "rowskin": "sf48c20c40284174893252878ef8d096",
     "rowtemplate": "MainFlex",
     "screenlevelwidget": false,
     "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s50f75ac6faf42e3a22fc545d4102baf",
     "selectedRows": null,
     "selectedState": false,
