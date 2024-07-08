@@ -2,146 +2,126 @@
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
     "_data_": [
-        [
-            {
-                "lblHeading": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Heading"
-                }
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
             },
-            [
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                }
-            ]
-        ],
-        [
-            {
-                "lblHeading": {
-                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                    "text": "Heading"
-                }
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
             },
-            [
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                },
-                {
-                    "SegButton": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Button"
-                    },
-                    "SegImage": {
-                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                        "src": "imagedrag.png"
-                    }
-                }
-            ]
-        ]
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "SegButton": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
+            "SegImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
     ],
     "_height_": {
         "type": "string",
@@ -176,14 +156,17 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "15",
+    "counter": "011",
+    "editstyle": "swipe",
+    "enabledictionary": true,
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": "j689bb4d96a34531a7b8514f48b12b79",
     "groupcells": true,
-    "hasSections": true,
+    "hasSections": false,
     "id": "MySegment",
     "info": null,
+    "invokedProperty": "unselectedStateImage",
     "ipad": {
         "psp": {
             "indicator": "rowselect"
@@ -191,7 +174,10 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "editStyle": "swipe",
+            "enableDictionary": true,
+            "indicator": "rowclick",
+            "progressIndicatorColor": "grey"
         }
     },
     "iscustomlayout": false,
@@ -203,34 +189,48 @@
     "pageoffdotimage": "pageoffdot.png",
     "pageondotimage": "pageondot.png",
     "paginationconfig": {
-        "position": "bottom"
+        "position": "bottom",
+        "vdistance": 1
     },
     "parent": "MainFlexContainer",
     "pf": "TestForm008",
+    "progressindicatorcolor": "grey",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "retainselection": false,
+    "retainselection": true,
     "rowTemplateId": "f78e2fe0c376404497d88bb6da3a35d4",
-    "rowcounter": 5,
+    "rowcounter": 11,
     "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
     "rowskin": "sf48c20c40284174893252878ef8d096",
     "rowtemplate": "MainFlex",
     "screenlevelwidget": false,
-    "seccounter": 1,
-    "sectionHeaderTemplateId": "ba33ec4de10b4de7a451e52212800ad0",
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s50f75ac6faf42e3a22fc545d4102baf",
-    "sectionheadertemplate": "flxSectionHeaderTemplate",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
-    "selectionbehavior": "default",
-    "separatorcolor": "aaaaaa00",
+    "selectedsectionindex": null,
+    "selectimage": "pageondot.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "SegImage",
+        "selectedStateImage": "pageondot.png",
+        "unselectedStateImage": "pageoffdot.png"
+    },
+    "selectionindicator": "SegImage",
+    "separatorcolor": "ff87ff00",
     "separatorrequired": true,
-    "separatorthickness": 1,
-    "showscrollbars": false,
+    "separatorthickness": 5,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1170,
+        "widthRatio": 0
+    },
+    "unselectimage": "pageoffdot.png",
     "viewtype": "tableview",
     "vizProps": {},
     "wType": "Segment",
