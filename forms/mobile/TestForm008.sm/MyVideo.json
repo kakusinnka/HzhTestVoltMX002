@@ -57,6 +57,11 @@
     },
     "id": "MyVideo",
     "info": null,
+    "iphone": {
+        "source": {
+            "mp4": ""
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kiosk": {
