@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizVideo",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_controls_": true,
+    "_height_": {
+        "type": "string",
+        "value": "320dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "29dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_poster_": "defvideoposter.png",
+    "_skin_": "s4f621761f2244faa16f2bb64c4e9d16",
+    "_source_": {
+        "mp4": "Video.mp4"
+    },
+    "_text_": "Video",
+    "_tracks_": [
+        {
+            "default": true,
+            "displayName": null,
+            "src": ""
+        }
+    ],
+    "_volume_": 1,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "render": true
+        }
+    },
+    "id": "MyVideo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "d2ab030c6543469da989f55f5e1c3a96",
+    "name": "kony.ui.Video",
+    "parent": "MainFlexContainer",
+    "pf": "TestForm008",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spa": {
+        "psp": {
+            "render": true
+        }
+    },
+    "wType": "Video",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

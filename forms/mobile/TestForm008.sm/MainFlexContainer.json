@@ -37,7 +37,8 @@
     "children": [
         "MySegment",
         "MySwitch01",
-        "MySwitch02"
+        "MySwitch02",
+        "MyVideo"
     ],
     "clipbounds": false,
     "containerweight": 100,
