@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "MySegment",
-        "MySwitch01"
+        "MySwitch01",
+        "MySwitch02"
     ],
     "clipbounds": false,
     "containerweight": 100,

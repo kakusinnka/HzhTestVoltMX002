@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_blur_": {
         "enabled": true,
-        "value": 0
+        "value": 10
     },
     "_height_": {
         "type": "string",
@@ -11,7 +11,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "295dp"
+        "value": "144dp"
     },
     "_margin_": [
         0,
@@ -25,10 +25,10 @@
         0,
         0
     ],
-    "_skin_": "s94b4f7b07e945d6b7aba7ba33cef02b",
+    "_skin_": "s35f727d4ea34eef874b7986c3ef4833",
     "_top_": {
         "type": "string",
-        "value": "305dp"
+        "value": "395dp"
     },
     "_width_": {
         "type": "string",
@@ -40,7 +40,7 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "id": "MySwitch01",
+    "id": "MySwitch02",
     "info": null,
     "iphone": {
         "psp": {
@@ -52,8 +52,8 @@
     "kiosk": {
         "render": false
     },
-    "kuid": "i35ad366b8b64fe787ca0116c64d4bbf",
-    "leftsidetext": "ON",
+    "kuid": "a7919317be9e451ab47269ff7ea307e9",
+    "leftsidetext": "关",
     "name": "kony.ui.Switch",
     "nativeThumbLook": true,
     "onslide": null,
@@ -63,9 +63,14 @@
     "pf": "TestForm008",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "rightsidetext": "OFF",
+    "rightsidetext": "开",
     "selectedindex": 0,
     "wType": "Switch",
     "widgetalignment": 5,
+    "winphone8": {
+        "psp": {
+            "enableCache": true
+        }
+    },
     "zindex": 1
 }
