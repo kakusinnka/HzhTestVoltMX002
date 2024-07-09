@@ -65,12 +65,15 @@
     "isvisible": true,
     "kuid": "b23bfd1885234eb9a457473daf68011b",
     "name": "kony.ui.Label",
-    "parent": "MainFlexContainer",
+    "parent": "MainFlexScrollGroup",
     "pf": "TestForm001",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
+    "vizProps": {
+        "lock": true
+    },
     "wType": "Label",
     "zindex": 1
 }
