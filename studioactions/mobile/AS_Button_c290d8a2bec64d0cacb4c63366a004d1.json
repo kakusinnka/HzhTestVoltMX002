@@ -1,0 +1,22 @@
+{
+    "AS_Button_c290d8a2bec64d0cacb4c63366a004d1": {
+        "id": "AS_Button_c290d8a2bec64d0cacb4c63366a004d1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ic2cd758dc2e4c9c9566092e3e74171c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "confirmationAlert",
+            "display": "confirmationAlert",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
