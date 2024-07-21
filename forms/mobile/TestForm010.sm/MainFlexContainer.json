@@ -47,6 +47,16 @@
     "name": "kony.ui.FlexContainer",
     "parent": "TestForm010",
     "pf": "TestForm010",
+    "responsiveconfig": {
+        "offset": {
+            "landscape": 0,
+            "portrait": 0
+        },
+        "span": {
+            "landscape": 6,
+            "portrait": 12
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
