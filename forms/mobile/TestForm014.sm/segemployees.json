@@ -1,0 +1,536 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        },
+        {
+            "lblDepartment": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Department"
+            },
+            "lblDesignation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Designation"
+            },
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Email"
+            },
+            "lblEmpid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Emp Id"
+            },
+            "lblImageURL": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Image URL"
+            },
+            "lblManagerName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Manager Name"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblPrimaryPhone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Phone"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "687dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "records",
+        "widgetPropertyName": "rowData"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "c07b1d0b7abf48c99c33c92f5eb3412a",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segemployees",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a7ccd3bcd1e74a40acba5d12ca66ee94",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "TestForm014",
+    "pf": "TestForm014",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c07b1d0b7abf48c99c33c92f5eb3412a",
+    "rowcounter": 9,
+    "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
+    "rowskin": "sf48c20c40284174893252878ef8d096",
+    "rowtemplate": "FBox0c1a3210968bd4b",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s50f75ac6faf42e3a22fc545d4102baf",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "records",
+            "methodName": "get",
+            "operationName": "employees",
+            "rowTemplateKUID": "c07b1d0b7abf48c99c33c92f5eb3412a",
+            "segmentKUID": "a7ccd3bcd1e74a40acba5d12ca66ee94",
+            "serviceName": "EmployeeServices",
+            "serviceType": "objectsvcs",
+            "viewType": "List form ui",
+            "widgetsConfig": {
+                "Department": {
+                    "dataType": "string",
+                    "kuid": "j176c85f445a4c81bb357044deda6777",
+                    "properties": {
+                        "generate": true,
+                        "index": 5
+                    },
+                    "wType": "Label"
+                },
+                "Designation": {
+                    "dataType": "string",
+                    "kuid": "cc71eff5b30f4a45bef91719154c2798",
+                    "properties": {
+                        "generate": true,
+                        "index": 4
+                    },
+                    "wType": "Label"
+                },
+                "Email": {
+                    "dataType": "string",
+                    "kuid": "e97fe309a89f4fcf9100d3e478698b2d",
+                    "properties": {
+                        "generate": true,
+                        "index": 2
+                    },
+                    "wType": "Label"
+                },
+                "Emp_id": {
+                    "dataType": "string",
+                    "kuid": "i41188fce7fa46f19f60e9517159b88b",
+                    "properties": {
+                        "generate": true,
+                        "index": 0
+                    },
+                    "wType": "Label"
+                },
+                "Image_URL": {
+                    "dataType": "string",
+                    "kuid": "ib1b45902be94de3ac50c4727433934b",
+                    "properties": {
+                        "generate": true,
+                        "index": 7
+                    },
+                    "wType": "Label"
+                },
+                "Manager_Name": {
+                    "dataType": "string",
+                    "kuid": "fc0ffc7f51534acfacb9a22089370cd9",
+                    "properties": {
+                        "generate": true,
+                        "index": 6
+                    },
+                    "wType": "Label"
+                },
+                "Name": {
+                    "dataType": "string",
+                    "kuid": "iad9203f4f9e472d9423278b60aea53a",
+                    "properties": {
+                        "generate": true,
+                        "index": 1
+                    },
+                    "wType": "Label"
+                },
+                "Primary_Phone": {
+                    "dataType": "string",
+                    "kuid": "af40d90d33a246b18c28824140652a41",
+                    "properties": {
+                        "generate": true,
+                        "index": 3
+                    },
+                    "wType": "Label"
+                }
+            }
+        }
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblDepartment": "lblDepartment",
+        "lblDesignation": "lblDesignation",
+        "lblEmail": "lblEmail",
+        "lblEmpid": "lblEmpid",
+        "lblImageURL": "lblImageURL",
+        "lblManagerName": "lblManagerName",
+        "lblName": "lblName",
+        "lblPrimaryPhone": "lblPrimaryPhone"
+    },
+    "zindex": 1
+}

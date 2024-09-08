@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        5,
+        0,
+        5,
+        0
+    ],
+    "_skin_": "s399e95507914df786e2a9d0bf79ff06",
+    "_text_": "EMPLOYEES",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "actionsInfo": {
+        "skipMapping": true
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTitle",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a3da440b68d24a88bd16ec50e7b67bac",
+    "maxnumberoflines": 1,
+    "maxwidth": {
+        "type": "string",
+        "value": "74%"
+    },
+    "name": "kony.ui.Label",
+    "parent": "flexHeader",
+    "pf": "TestForm014",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texttruncateposition": 3,
+    "tooltip": "",
+    "wType": "Label"
+}

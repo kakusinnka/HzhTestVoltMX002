@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s146a46cacae47059d2183a35791bb85",
+    "_text_": "Emp Id",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "actionsInfo": {
+        "dataCollectionId": "records",
+        "dataPropertyName": "Emp_id",
+        "widgetPropertyName": "text"
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblEmpid",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i41188fce7fa46f19f60e9517159b88b",
+    "maxnumberoflines": 2,
+    "name": "kony.ui.Label",
+    "parent": "FBox0c1a3210968bd4b",
+    "pf": "FBox0c1a3210968bd4b",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texttruncateposition": 3,
+    "tooltip": "",
+    "wType": "Label"
+}

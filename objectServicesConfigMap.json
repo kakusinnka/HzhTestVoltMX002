@@ -1,1 +1,9 @@
-{}
+{
+    "EmployeeServices_employees": {
+        "servicename": "EmployeeServices",
+        "serviceid": "d7771fba-5391-4e25-9b0e-4236e5adf7ac",
+        "type": "objectsvcs",
+        "objectname": "employees",
+        "objectid": "490370"
+    }
+}
