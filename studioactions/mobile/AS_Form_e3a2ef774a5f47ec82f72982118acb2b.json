@@ -1,0 +1,210 @@
+{
+    "AS_Form_e3a2ef774a5f47ec82f72982118acb2b": {
+        "id": "AS_Form_e3a2ef774a5f47ec82f72982118acb2b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TestForm013",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b5f1d4b13f794e7686f98426bdd29e3e"
+        },
+        "language": "js",
+        "eventType": "onMapping",
+        "actions": [{
+            "id": "LOADING_INDICATOR_jc804085956e4924809030171421945d",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_d14c24e3dbc84f25b05eb42c509955da",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "Countries",
+                "type": "integration",
+                "operationname": "getCountries",
+                "serviceid": "2bf3a2b4-86fe-4b0d-83b4-70cad5a4e758",
+                "operationid": "490366"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_a8ae75d5365d4cf6a4f449ebe45a1ecb",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_d14c24e3dbc84f25b05eb42c509955da",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_dbb3a720c07242d3be4f05520b80f781",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "getCountries.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_ASYNC_SERVICE_d14c24e3dbc84f25b05eb42c509955da",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_d888fb2c2b79481dbdb1da0be93c1042",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_ASYNC_SERVICE_d14c24e3dbc84f25b05eb42c509955da",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT_ea3f83b1075e40fe84d54838b5c97679",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_d888fb2c2b79481dbdb1da0be93c1042",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "ADD_MAPPING_d6eb3a754a234fa8b7eac44e96f681ed",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_f8950404e2154b47a89f8bfd3b48bf8d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f8950404e2154b47a89f8bfd3b48bf8d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "responseList",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Countries",
+                            "type": "integration",
+                            "operationname": "getCountries",
+                            "serviceid": "2bf3a2b4-86fe-4b0d-83b4-70cad5a4e758",
+                            "operationid": "490366"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "rowData",
+                        "widgetId": "seggetCountries",
+                        "widgetPath": "this.view.seggetCountries",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "TestForm013",
+                        "collectionId": "masterdata",
+                        "widgetKUID": "be425997fa7c431e980f33fe5768d207",
+                        "itemKUID": "b5f1d4b13f794e7686f98426bdd29e3e",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_ee061083043d46278154c8099977bd87": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ee061083043d46278154c8099977bd87",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "CountryKey",
+                        "dataType": "string",
+                        "collectionId": "responseList",
+                        "propertyPath": "[\"responseList\"][0][\"CountryKey\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Countries",
+                            "type": "integration",
+                            "operationname": "getCountries",
+                            "serviceid": "2bf3a2b4-86fe-4b0d-83b4-70cad5a4e758",
+                            "operationid": "490366"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblCountryKey",
+                        "widgetPath": "this.view.lblCountryKey",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "TestForm013",
+                        "parentMappingId": "ME_Mapping_f8950404e2154b47a89f8bfd3b48bf8d",
+                        "segmentId": "seggetCountries",
+                        "segmentKUID": "be425997fa7c431e980f33fe5768d207",
+                        "widgetKUID": "g63dc380c2a1421d86695d5cc3db2a85",
+                        "itemKUID": "b5f1d4b13f794e7686f98426bdd29e3e",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_h57152887bc7419889e0d8e71a48f634": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_h57152887bc7419889e0d8e71a48f634",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "CountryValue",
+                        "dataType": "string",
+                        "collectionId": "responseList",
+                        "propertyPath": "[\"responseList\"][0][\"CountryValue\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Countries",
+                            "type": "integration",
+                            "operationname": "getCountries",
+                            "serviceid": "2bf3a2b4-86fe-4b0d-83b4-70cad5a4e758",
+                            "operationid": "490366"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblCountryValue",
+                        "widgetPath": "this.view.lblCountryValue",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "TestForm013",
+                        "parentMappingId": "ME_Mapping_f8950404e2154b47a89f8bfd3b48bf8d",
+                        "segmentId": "seggetCountries",
+                        "segmentKUID": "be425997fa7c431e980f33fe5768d207",
+                        "widgetKUID": "dafd767d4f4a4f5bbfcd9925b6e6e838",
+                        "itemKUID": "b5f1d4b13f794e7686f98426bdd29e3e",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f8950404e2154b47a89f8bfd3b48bf8d", "ME_Mapping_ee061083043d46278154c8099977bd87", "ME_Mapping_h57152887bc7419889e0d8e71a48f634"],
+            "parentId": "_IF_CONDITION_dbb3a720c07242d3be4f05520b80f781",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

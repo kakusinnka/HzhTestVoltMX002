@@ -1,0 +1,237 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        },
+        {
+            "lblCountryKey": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryKey"
+            },
+            "lblCountryValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CountryValue"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "617dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "actionsInfo": {
+        "dataPropertyName": "responseList",
+        "parentParameters": [],
+        "widgetPropertyName": "rowData"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "d979efc77b644dca8c71712ba19f7fa8",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "seggetCountries",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be425997fa7c431e980f33fe5768d207",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "TestForm013",
+    "pf": "TestForm013",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d979efc77b644dca8c71712ba19f7fa8",
+    "rowcounter": 9,
+    "rowfocusskin": "sccdcd77d11d44edb5afe3058b54be8b",
+    "rowskin": "sf48c20c40284174893252878ef8d096",
+    "rowtemplate": "FBox0b5533ad63be146",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s50f75ac6faf42e3a22fc545d4102baf",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {
+        "dynamicPropertiesConfig": {
+            "dataCollectionId": "responseList",
+            "operationName": "getCountries",
+            "parentParameters": [],
+            "rowTemplateKUID": "d979efc77b644dca8c71712ba19f7fa8",
+            "segmentKUID": "be425997fa7c431e980f33fe5768d207",
+            "serviceName": "Countries",
+            "serviceType": "integration",
+            "viewType": "List form ui",
+            "widgetsConfig": {
+                "CountryKey": {
+                    "dataType": "string",
+                    "kuid": "g63dc380c2a1421d86695d5cc3db2a85",
+                    "properties": {
+                        "generate": true,
+                        "index": 0
+                    },
+                    "wType": "Label"
+                },
+                "CountryValue": {
+                    "dataType": "string",
+                    "kuid": "dafd767d4f4a4f5bbfcd9925b6e6e838",
+                    "properties": {
+                        "generate": true,
+                        "index": 1
+                    },
+                    "wType": "Label"
+                }
+            }
+        }
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblCountryKey": "lblCountryKey",
+        "lblCountryValue": "lblCountryValue"
+    },
+    "zindex": 1
+}

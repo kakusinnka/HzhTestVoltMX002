@@ -32,7 +32,10 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flexHeader",
+        "seggetCountries"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -48,6 +51,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "TestForm013",
+    "ide_onMapping": "AS_Form_e3a2ef774a5f47ec82f72982118acb2b",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
