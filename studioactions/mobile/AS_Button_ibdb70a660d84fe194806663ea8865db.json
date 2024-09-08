@@ -1,0 +1,165 @@
+{
+    "AS_Button_ibdb70a660d84fe194806663ea8865db": {
+        "id": "AS_Button_ibdb70a660d84fe194806663ea8865db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TestForm12",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cceafb04f8e74e1e91b546985d414aac"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "LOADING_INDICATOR_b1f0f60b25cd4713970711c7df1775c4",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_IDENTITY_SERVICE_b2470278a5f64f1a956695cb6075b6fa",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {
+                "ME_Mapping_ic90fa77c3c9404d8353165b867e54af": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ic90fa77c3c9404d8353165b867e54af",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxuserid",
+                        "widgetPath": "this.view.tbxuserid",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "TestForm12",
+                        "widgetKUID": "c5b3e8ea1c2f495ab4c21e3bbf52538b",
+                        "itemKUID": "cceafb04f8e74e1e91b546985d414aac",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userid",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MicrosoftActiveDirectory",
+                            "type": "identity",
+                            "operationname": "login",
+                            "serviceid": "c98c493a-004e-4a4a-a818-346464fe316f",
+                            "login_type": "basic"
+                        }
+                    }
+                },
+                "ME_Mapping_c014ba5d65cc4cdfb7201526c2dc4b04": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c014ba5d65cc4cdfb7201526c2dc4b04",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "tbxpassword",
+                        "widgetPath": "this.view.tbxpassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "TestForm12",
+                        "widgetKUID": "d41df234796a40f8b7b74893421b35f5",
+                        "itemKUID": "cceafb04f8e74e1e91b546985d414aac",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "password",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MicrosoftActiveDirectory",
+                            "type": "identity",
+                            "operationname": "login",
+                            "serviceid": "c98c493a-004e-4a4a-a818-346464fe316f",
+                            "login_type": "basic"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ic90fa77c3c9404d8353165b867e54af", "ME_Mapping_c014ba5d65cc4cdfb7201526c2dc4b04"],
+            "serviceconfig": {
+                "servicename": "MicrosoftActiveDirectory",
+                "type": "identity",
+                "operationname": "login",
+                "serviceid": "c98c493a-004e-4a4a-a818-346464fe316f",
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "LOADING_INDICATOR_c1b756bb9f28409bb5c953626c00405f",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_IDENTITY_SERVICE_b2470278a5f64f1a956695cb6075b6fa",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Success",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "LOADING_INDICATOR_da3471e2e24c4ee58ceee88985b4efd2",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_IDENTITY_SERVICE_b2470278a5f64f1a956695cb6075b6fa",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Failure",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "SHOW_ALERT_g0dd5ee54c474539b7a406b8b8a200e1",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "You have successfully logged in.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_IDENTITY_SERVICE_b2470278a5f64f1a956695cb6075b6fa",
+            "callbackType": "Success",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SHOW_ALERT_c61325f0e4864f59b86a0bc1b0118e56",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Login failed. Please try again.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_IDENTITY_SERVICE_b2470278a5f64f1a956695cb6075b6fa",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

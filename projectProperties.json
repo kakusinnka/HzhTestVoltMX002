@@ -367,6 +367,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "f2cf187c-63fc-4f80-9200-215566ea867f": {
+            "appName": "HzhTestVoltMX002",
+            "baseId": "442fc18b-119d-45f3-a2b1-a29aa874137d",
+            "id": "442fc18b-119d-45f3-a2b1-a29aa874137d",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.5.30",
     "lastmodifiedtime": "1719528633741",
     "location": "false",

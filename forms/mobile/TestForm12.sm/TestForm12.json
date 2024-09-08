@@ -32,7 +32,9 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flexlogin"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
