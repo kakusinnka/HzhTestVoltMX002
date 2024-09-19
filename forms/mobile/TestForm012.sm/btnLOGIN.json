@@ -55,7 +55,7 @@
     "kuid": "ica83e1426aa4a6e98bc4cbcf4e4bc11",
     "name": "kony.ui.Button",
     "parent": "flexlogin",
-    "pf": "TestForm12",
+    "pf": "TestForm012",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button"
